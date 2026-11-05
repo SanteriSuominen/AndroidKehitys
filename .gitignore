@@ -6,3 +6,41 @@ node_modules/
 *.log
 .DS_Store
 local.properties
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+
+# Generated Android files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin
+*.class
+.kotlin/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Signing keys and secrets
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
